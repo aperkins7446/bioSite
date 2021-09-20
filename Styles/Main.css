@@ -1,0 +1,92 @@
+
+header {
+    text-align: left;
+    font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600; 
+    font-size: 48px;
+    background-color: #4F7302;
+    color: black;
+    padding: 20px;
+}
+
+nav {
+    background-color: #F28705; 
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
+    font-weight: 200; 
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    margin-right: 36px;
+}
+
+h2, h3 {
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400; 
+    font-size: 24px;
+}
+
+h3 {
+    font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
+    font-weight: 200; 
+    font-size: 20px;
+}
+
+
+
+body {
+    background-color: #ccc;
+}
+
+.content_block {
+    background-color: #F28705;
+    width: 48%;
+    margin: 1%;
+    padding: 150px 0;
+    font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
+    font-weight: 200; 
+    font-size: 18px;
+}
+
+.content_block:nth-child(2) {
+    background-color: #F28705;
+}
+
+footer{
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #6BA5F2;
+    text-align: center;
+    font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
+    font-weight: 200; 
+    font-size: 16px;
+}
+
+
+#container {
+    width: 1080px;
+    margin: 0 auto;
+
+}
+
+#main_content {
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
