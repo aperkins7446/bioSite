@@ -1,4 +1,4 @@
-
+/* Angela Perkins */
 header {
     text-align: left;
     font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
@@ -35,13 +35,13 @@ h2 {
     font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
     text-transform: uppercase;
     font-weight: 400; 
-    font-size: 24px;
+    font-size: 3vw;
 }
 
 h3 {
     font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
     font-weight: 200; 
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 
@@ -52,13 +52,19 @@ body {
 
 .content_block {
     background-color: #F28705;
-    width: 48%;
+    width: 46%;
     margin: 1%;
-    padding: 150px 0;
+    padding: 1%;
     font-family: 'Source Sans Pro', 'Ubuntu', 'Raleway', sans-serif;
     font-weight: 200; 
     font-size: 18px;
+    position: relative;
 }
+
+.content_block img{
+    width: 100%;
+}
+
 
 .content_block:nth-child(2) {
     background-color: #F28705;
@@ -87,6 +93,34 @@ footer{
     flex-wrap: wrap;
 }
 
+#bio_text {
+    font-size: large;
+    text-indent: 4em;
+}
 
+#bio_text p{
+    margin-bottom: 1em;
+    line-height: 1.25em;
+}
 
+#index_text {
+    font-size: 4vw;
+    text-transform: uppercase;
+    line-height: 1.25em;
+    text-align: center;
+}
 
+.text_on_image{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #eee;
+    background-color: #3f3f3f;
+    opacity: 75%;
+    padding: 2%;
+    width: 96%;
+}
+
+.text_on_image span{
+    opacity: 100% !important;
+}
