@@ -21,6 +21,10 @@ nav {
     font-size: 20px;
 }
 
+#subheader {
+    background-color: #eee;
+}
+
 li {
     display: inline;
     margin-right: 36px;
@@ -47,7 +51,7 @@ h3 {
 
 
 body {
-    background-color: #ccc;
+    background-image: linear-gradient(#4F7302, #6BA5F2);
 }
 
 .content_block {
@@ -95,7 +99,9 @@ footer{
 
 #bio_text {
     font-size: large;
+    font-weight: bold;
     text-indent: 4em;
+    background-color: 	rgb(255, 213, 128);
 }
 
 #bio_text p{
@@ -124,3 +130,15 @@ footer{
 .text_on_image span{
     opacity: 100% !important;
 }
+
+@media only screen and (max-width: 720px) {
+    #main_content {
+      display: block;
+    }
+    .content_block {
+        width: 98%;
+    }
+    #container {
+        width: 100%;
+    }
+  }
